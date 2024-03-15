@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+</head>
+
+<body>
+    <h1>Калькулятор</h1>
+    <form action="/calculate" method="POST">
+        <label for="num1">Число 1:</label><br>
+        <input type="number" name="num1" id="num1"><br>
+        <label for="num2">Число 2:</label><br>
+        <input type="number" name="num2" id="num2"><br>
+        <label for="operation">Выберите операцию:</label><br>
+        <select name="operation" id="operation">
+            <option value="add">Сложение</option>
+            <option value="subtract">Вычитание</option>
+            <option value="multiply">Умножение</option>
+            <option value="divide">Деление</option>
+        </select><br>
+        <button type="submit">Вычислить</button>
+    </form>
+</body>
+
+</html>
